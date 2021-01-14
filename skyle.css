@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+}
+
+main section p {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 100px auto;
+}
+
+
+
+#two {
+    margin: auto;
+    position: relative;
+    width: 400px;
+    height: 55px;
+    bottom: 400px;
+    background-color:lightblue;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 2px solid black;
+    color: white;
+    font: bold;
+    text-align: center;
+    font-size: 4rem;
+    padding-top:10px ;
+}
+
+#three {
+    background-color:lightblue;
+    border-radius: 0px;
+    border: 2px solid black;
+    position: relative;
+    width: 130px;
+    height: 190px;
+    margin: -10px;
+    right: 370px;
+    bottom: 350px;
+}
+
+#four {
+    width: 210px;
+    height: 40px;
+    border-radius: 0px;
+    background-color:lightblue;
+    border: 2px solid black;
+    position: relative;
+    bottom: 751px;
+    left: 165px;
+    color: white;
+    font: bold;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 5px;
+}
+
+#imagen {
+    background-color: transparent;
+    position: relative;
+    bottom: 590px;
+    right: 221px;
+}
+
+#license {
+    background-color: white;
+    border-radius: 0px;
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    bottom: 785px;
+    width: 50px;
+    height: 20px;
+    right: 568px;
+    text-align: center;
+}
+#birth {
+    background-color: white;
+    border-radius: 0px;
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    width: 60px;
+    height: 20px;
+    bottom: 1188px;
+    left: 140px;
+    text-align: center;
+}
+#expires{
+    background-color: white;
+    border-radius: 0px;
+    width: 50px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    bottom: 1188px;
+    left: 180px;
+}
+
+#class {
+    background-color: white;
+    border-radius: 0px;
+    width: 50px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    bottom: 1188px;;
+    left: 210px;
+}
+#homer {
+    background-color: white;
+    border-radius: 0px;
+    width: 180px;
+    height: 100px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    bottom: 1080px;
+    left: -3px;
+}
