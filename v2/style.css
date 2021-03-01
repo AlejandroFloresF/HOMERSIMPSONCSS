@@ -1,0 +1,41 @@
+:root {
+    --azulclaro: #89c9e3;
+    --blancoopaco: #d7d6d1;
+    --justblack: black;s
+} 
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+
+
+html {
+    font-size: 62.5%;
+}
+ 
+ 
+ 
+ main .Contenedor-absoluto {
+     width: 100%;
+     height: 100vh;
+     background-color: black;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 10%;
+ }
+
+
+ main .Contenedor-absoluto .Contedor-principal {
+    width: 44vw;
+    height: 10vh;
+    min-width: 44vw;
+    height: 10vh;
+    background-color: green;
+    margin:  0 auto;
+ }
+
+
