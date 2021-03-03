@@ -42,18 +42,17 @@ main .Contenedor-absoluto .Contedor-principal .caja-1 {
 
 main .Contenedor-absoluto .Contedor-principal .caja-1 P {
     font-weight: 700;
-    font-size: 4.3rem;
+    font-size: 4.26rem;
     line-height: normal;
     font-style: normal;
     color: var(--blancoopaco);
     text-align: center;
-    
 }
 
 main .Contenedor-absoluto .Contedor-principal .caja-2 {
     background-color: var(--blancoopaco);
     width: 100%;
-    height: 16%;
+    height: 12%;
     display: flex;
     justify-content: space-around;
 }
@@ -68,14 +67,63 @@ main .Contenedor-absoluto .Contedor-principal .caja-2 P {
     width: 15%;
 }
 
-
-
-
 main .Contenedor-absoluto .Contedor-principal .caja-3 {
     background-color: var(--blancoopaco);
     width: 100%;
-    height: 68%;
+    height: 72%;
     border-radius: 0 0 25px 25px;
+    display: flex;
 }
 
+
+.caja-3 .down-section .img {
+    background-color: var(--azulclaro);
+    border: 2px solid black;
+    position: relative;
+    width: 170px;
+    height: 250px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.caja-3 .down-section .img img{
+    width: 200%;
+    position: relative;
+    left: -70px;
+}
+
+.caja-3  .blue-text {
+    background-color: var(--azulclaro);
+    border: 2px solid black;
+    font-size: 3rem;
+    font-weight: 700;   
+    font-style: normal;
+    color: var(--blancoopaco);
+    text-align: center;
+    width: 100%;
+}
+
+
+.caja-3 .container-caracteristicas {
+    max-width: 300px;
+}
+
+
+.caja-3 .texto-down-section {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caja-3 .caracteristicas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.caja-3 .caracteristicas p{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
 
